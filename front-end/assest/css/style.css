@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-1: #E9E9E9;
+    --color-2: #000
+}
+
+.my-container {
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.my-container img {
+    width: 80%;
+    padding: 5px;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 10.5rem;
+}
+
+a {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.my-container .img-sm {
+    width: 30%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+}
+
+.my-container-1 {
+    width: 80%;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.my-container-1 a {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.my-container-1 p {
+    margin-bottom: 2px;
+}
+
+.my-container-2 {
+    width: 80%;
+    padding: 0;
+    margin-top: -100px;
+}
+
+.my-container-2 input {
+    margin-bottom: 15px;
+}
+
+.my-container-3 {
+    width: 80%;
+    font-size: 1.6rem;
+}
+
+.my-div {
+    color: var(--coolor-1);
+    height: 15vh;
+    background-color: var(--color-1);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: #000 solid 1px;
+}
+
+
+.my-div img {
+    width: 20%;
+    margin-top: 10.5rem;
+}
+
+.my-div p {
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-div-sm{
+    color: var(--coolor-1);
+    height: 7vh;
+    background-color: var(--color-1);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: #000 solid 1px;
+}
+
+.my-div-sm p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-div-2 {
+    color: var(--coolor-1);
+    height: 20vh;
+    background-color: var(--color-1);
+    border-radius: 5px;
+    flex-direction: column;
+
+}
+
+.my-div-2 img {
+    width: 50%;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-div-2 p {
+    font-size: 15px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-div-3 {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-div-3 img {
+    width: auto;
+    max-height: 55px;
+    margin: 0px;
+
+}
+
+.my-div-3 p {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.my-btn {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    background: var(--color-1);
+    color: var(--color-2);
+}
+.my-text{
+    margin-bottom: 0.8rem;
+}
+
+.my-text p{
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
